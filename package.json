@@ -1,0 +1,14 @@
+{
+  "name": "calculus-algorithms",
+  "version": "1.0.0",
+  "repository": "git@RohitSingh107.github.com:RohitSingh107/calculus-algorithms.git",
+  "author": "Rohit Singh <rohit@garudalinux.org>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
