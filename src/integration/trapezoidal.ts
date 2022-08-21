@@ -1,4 +1,4 @@
-export function simpsonOneThird(
+export function trapezoidalRule(
   func: (arg0: number) => number,
   lowerLimit: number,
   upperLimit: number
@@ -10,23 +10,19 @@ export function simpsonOneThird(
 
   let x: number = lowerLimit
 
-  result += func(x)
+  result += func(x) / 2
 
   for (let i = 1; i <= n - 1; i++) {
     x += h
 
-    if (i & 1) {
-      result += 4 * func(x)
-    } else {
-      result += 2 * func(x)
-    }
+    result += func(x)
   }
 
-  result += func(x + h)
+  result += func(x + h) / 2
 
   result *= h
-  result /= 3
 
-  console.log(`simpsonOneThird result: ${result}`)
+  console.log(`trapezoidalRule result: ${result}`)
+
   return result
 }

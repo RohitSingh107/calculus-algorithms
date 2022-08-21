@@ -1,4 +1,4 @@
-export function simpsonOneThird(
+export function simpsonThreeEighth(
   func: (arg0: number) => number,
   lowerLimit: number,
   upperLimit: number
@@ -10,23 +10,25 @@ export function simpsonOneThird(
 
   let x: number = lowerLimit
 
+  // Adding First f(x)
   result += func(x)
 
   for (let i = 1; i <= n - 1; i++) {
     x += h
 
-    if (i & 1) {
-      result += 4 * func(x)
+    if (i % 3) {
+      result += 3 * func(x)
     } else {
       result += 2 * func(x)
     }
   }
 
+  // Adding Last f(x)
   result += func(x + h)
 
-  result *= h
-  result /= 3
+  result *= 3 * h
+  result /= 8
 
-  console.log(`simpsonOneThird result: ${result}`)
+  console.log(`simpsonThreeEighth result: ${result}`)
   return result
 }
