@@ -1,0 +1,31 @@
+{
+  "name": "@calculus-algorithms",
+  "version": "0.0.1",
+  "description": "A subset of Calculus algorithms",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitSingh107/calculus-algorithms.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "calculus",
+    "math",
+    "algorithms"
+  ],
+  "author": "Rohit Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RohitSingh107/calculus-algorithms/issues"
+  },
+  "homepage": "https://github.com/RohitSingh107/calculus-algorithms#readme"
+}
