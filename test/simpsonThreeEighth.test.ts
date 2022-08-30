@@ -12,7 +12,7 @@ const func2 = (arg0: number): number => {
 }
 
 describe("SimpsonThreeEighth Rule", function () {
-  describe("First test", () => {
+  describe("1 / (1 + x^2)", () => {
     it("should be close to given value", () => {
       assert.equal(
         simpsonThreeEighth(func1, 0, 1).toFixed(DECIMAL_PLACES),
@@ -21,7 +21,7 @@ describe("SimpsonThreeEighth Rule", function () {
     })
   })
 
-  describe("Second test", () => {
+  describe("natural log(x)", () => {
     it("should be close to given value", () => {
       assert.equal(
         simpsonThreeEighth(Math.log, 4, 5.2).toFixed(DECIMAL_PLACES),
@@ -30,7 +30,7 @@ describe("SimpsonThreeEighth Rule", function () {
     })
   })
 
-  describe("Third test", () => {
+  describe("sqrt(sin(x))", () => {
     it("should be close to given value", () => {
       assert.equal(
         simpsonThreeEighth(func2, 0, Math.PI / 2).toFixed(2),

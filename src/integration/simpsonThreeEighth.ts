@@ -29,6 +29,5 @@ export function simpsonThreeEighth(
   result *= 3 * h
   result /= 8
 
-  console.log(`simpsonThreeEighth result: ${result}`)
   return result
 }

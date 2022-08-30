@@ -22,7 +22,5 @@ export function trapezoidalRule(
 
   result *= h
 
-  console.log(`trapezoidalRule result: ${result}`)
-
   return result
 }

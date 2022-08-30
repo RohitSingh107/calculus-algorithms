@@ -27,6 +27,5 @@ export function simpsonOneThird(
   result *= h
   result /= 3
 
-  console.log(`simpsonOneThird result: ${result}`)
   return result
 }
