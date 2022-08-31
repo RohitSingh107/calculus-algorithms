@@ -1,5 +1,5 @@
 import { assert } from "chai"
-import { forwardDiff } from "../src/differentiation/forwardDividedDifference"
+import { forwardDiff } from "../src/differentiation"
 
 const DECIMAL_PLACES = 4
 

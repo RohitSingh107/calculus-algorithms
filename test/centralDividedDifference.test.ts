@@ -1,5 +1,5 @@
 import { assert } from "chai"
-import { centralDiff } from "../src/differentiation/centralDividedDifference"
+import { centralDiff } from "../src/differentiation"
 
 const DECIMAL_PLACES = 4
 

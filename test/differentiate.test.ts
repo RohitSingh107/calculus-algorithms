@@ -1,5 +1,5 @@
 import { assert } from "chai"
-import { diff } from "../src/differentiation/differentiate"
+import { diff } from "../src/differentiation"
 
 describe("Diffrentition", () => {
   describe("5x^4 + 6x^2 + 5x^2", () => {

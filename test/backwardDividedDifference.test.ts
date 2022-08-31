@@ -1,5 +1,5 @@
 import { assert } from "chai"
-import { backwardDiff } from "../src/differentiation/backwardDividedDifference"
+import { backwardDiff } from "../src/differentiation"
 const DECIMAL_PLACES = 4
 
 const func1 = (arg0: number): number => {

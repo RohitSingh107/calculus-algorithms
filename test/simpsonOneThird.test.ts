@@ -1,5 +1,5 @@
 import { assert } from "chai"
-import { simpsonOneThird } from "../src/integration/simpsonOneThird"
+import { simpsonOneThird } from "../src/integration"
 
 const DECIMAL_PLACES = 4
 

@@ -1,5 +1,5 @@
 import { assert } from "chai"
-import { trapezoidalRule } from "../src/integration/trapezoidal"
+import { trapezoidalRule } from "../src/integration"
 
 const DECIMAL_PLACES = 4
 
