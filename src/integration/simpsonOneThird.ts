@@ -1,3 +1,13 @@
+/*
+ * @returns integration of given function within given limits.
+ * @remarks
+ * This function is part of set integration functions.
+ *
+ * @param func - Function to integrate
+ * @param lowerLimit - Lower limit to integrate within.
+ * @param upperLimit - Upper limit to integrate within.
+ *
+ * */
 export function simpsonOneThird(
   func: (arg0: number) => number,
   lowerLimit: number,
