@@ -32,6 +32,19 @@ const diffTerm = (term: string): string => {
   return result
 }
 
+/**
+ * @remarks
+ * This is a not a numerical method.
+ *
+ * @returns differentiation of given expression.
+ * @param expression - Expression to differentiate.
+ *
+ * @example
+ *```ts
+ *diff("4x^3 - 3x^1 + 2x^2")
+ *```
+ *
+ * */
 export const diff = (expression: string): string => {
   let result: string = ""
 
