@@ -13,6 +13,7 @@
     "entryPoints": ["src/differentiation/index.ts", "src/integration/index.ts"],
     "entryPointStrategy": "Expand",
     "out": "docs",
+    "plugin": ["typedoc-plugin-markdown"],
     "name": "calculus-algorithms"
   }
 }
