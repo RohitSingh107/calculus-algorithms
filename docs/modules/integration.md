@@ -1,12 +1,14 @@
+[calculus-algorithms](../README.md) / [Modules](../modules.md) / integration
+
 # Module: integration
 
 ## Table of contents
 
 ### Functions
 
-- [simpsonOneThird](../wiki/integration#simpsononethird)
-- [simpsonThreeEighth](../wiki/integration#simpsonthreeeighth)
-- [trapezoidalRule](../wiki/integration#trapezoidalrule)
+- [simpsonOneThird](integration.md#simpsononethird)
+- [simpsonThreeEighth](integration.md#simpsonthreeeighth)
+- [trapezoidalRule](integration.md#trapezoidalrule)
 
 ## Functions
 
@@ -42,7 +44,7 @@ integration of given function within given limits.
 
 #### Defined in
 
-[integration/simpsonOneThird.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/ffec256/src/integration/simpsonOneThird.ts#L19)
+[integration/simpsonOneThird.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/af5ab73/src/integration/simpsonOneThird.ts#L19)
 
 ___
 
@@ -78,7 +80,7 @@ integration of given function within given limits.
 
 #### Defined in
 
-[integration/simpsonThreeEighth.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/ffec256/src/integration/simpsonThreeEighth.ts#L19)
+[integration/simpsonThreeEighth.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/af5ab73/src/integration/simpsonThreeEighth.ts#L19)
 
 ___
 
@@ -114,4 +116,4 @@ integration of given function within given limits.
 
 #### Defined in
 
-[integration/trapezoidal.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/ffec256/src/integration/trapezoidal.ts#L19)
+[integration/trapezoidal.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/af5ab73/src/integration/trapezoidal.ts#L19)

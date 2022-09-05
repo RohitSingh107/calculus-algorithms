@@ -1,3 +1,5 @@
+calculus-algorithms / [Modules](modules.md)
+
 # Calculus Algorithms
 
 This library includes various algorithms for calculus.

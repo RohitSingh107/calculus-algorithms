@@ -13,7 +13,6 @@
     "entryPoints": ["src/differentiation/index.ts", "src/integration/index.ts"],
     "entryPointStrategy": "Expand",
     "out": "docs",
-    "theme": "github-wiki",
     "name": "calculus-algorithms"
   }
 }
