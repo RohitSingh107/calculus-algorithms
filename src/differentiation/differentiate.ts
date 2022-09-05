@@ -45,7 +45,7 @@ const diffTerm = (term: string): string => {
  *```
  *
  * */
-export const diff = (expression: string): string => {
+export const differentiate = (expression: string): string => {
   let result: string = ""
 
   // const expSplit = expression.split(/[+-]+/)

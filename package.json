@@ -8,6 +8,12 @@
     "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test/**/*.ts'"
   },
+  "typedocOptions": {
+    "entryPoints": [
+      "src/index.ts"
+    ],
+    "out": "docs"
+  },
   "devDependencies": {
     "@types/chai": "^4.3.3",
     "@types/mocha": "^9.1.1",
@@ -16,6 +22,10 @@
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
     "typedoc": "^0.23.13",
+    "typedoc-github-wiki-theme": "^1.0.1",
+    "typedoc-plugin-markdown": "^3.13.6",
+    "typedoc-theme-category": "^1.0.7",
+    "typedoc-theme-hierarchy": "^3.0.0",
     "typescript": "^4.7.4"
   }
 }
