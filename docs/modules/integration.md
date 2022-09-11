@@ -44,7 +44,7 @@ integration of given function within given limits.
 
 #### Defined in
 
-[integration/simpsonOneThird.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/75bb4b9/src/integration/simpsonOneThird.ts#L19)
+[integration/simpsonOneThird.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/292cf31/src/integration/simpsonOneThird.ts#L19)
 
 ___
 
@@ -80,7 +80,7 @@ integration of given function within given limits.
 
 #### Defined in
 
-[integration/simpsonThreeEighth.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/75bb4b9/src/integration/simpsonThreeEighth.ts#L19)
+[integration/simpsonThreeEighth.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/292cf31/src/integration/simpsonThreeEighth.ts#L19)
 
 ___
 
@@ -116,4 +116,4 @@ integration of given function within given limits.
 
 #### Defined in
 
-[integration/trapezoidal.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/75bb4b9/src/integration/trapezoidal.ts#L19)
+[integration/trapezoidal.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/292cf31/src/integration/trapezoidal.ts#L19)
