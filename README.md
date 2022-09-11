@@ -27,7 +27,9 @@ If you like this library don't forget to start the repository!
 
 - [integration](/docs/modules/integration.md)
 
-[calculus-algorithms](../README.md) / [Modules](../modules.md) / differentiation
+  - [simpsonOneThird](/README.md#simpsononethird)
+  - [simpsonThreeEighth](/README.md#simpsonthreeeighth)
+  - [trapezoidalRule](/README.md#trapezoidalrule)
 
 # Module: differentiation
 
@@ -182,5 +184,117 @@ differentiation of given function at given value.
 #### Defined in
 
 [differentiation/forwardDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/differentiation/forwardDividedDifference.ts#L22)
+
+---
+
+# Module: integration
+
+## Functions
+
+### simpsonOneThird
+
+▸ **simpsonOneThird**(`func`, `lowerLimit`, `upperLimit`): `number`
+
+**`Example`**
+
+```ts
+simpsonOneThird(Math.log, 4, 5.2)
+
+simpsonOneThird(func1, 0, 1)
+
+const func1 = (arg0: number): number => {
+  return 1 / (1 + arg0 * arg0)
+}
+```
+
+#### Parameters
+
+| Name         | Type                           | Description                      |
+| :----------- | :----------------------------- | :------------------------------- |
+| `func`       | (`arg0`: `number`) => `number` | Function to integrate            |
+| `lowerLimit` | `number`                       | Lower limit to integrate within. |
+| `upperLimit` | `number`                       | Upper limit to integrate within. |
+
+#### Returns
+
+`number`
+
+integration of given function within given limits.
+
+#### Defined in
+
+[integration/simpsonOneThird.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/integration/simpsonOneThird.ts#L19)
+
+---
+
+### simpsonThreeEighth
+
+▸ **simpsonThreeEighth**(`func`, `lowerLimit`, `upperLimit`): `number`
+
+**`Example`**
+
+```ts
+simpsonThreeEighth(Math.log, 4, 5.2)
+
+simpsonThreeEighth(func1, 0, 1)
+
+const func1 = (arg0: number): number => {
+  return 1 / (1 + arg0 * arg0)
+}
+```
+
+#### Parameters
+
+| Name         | Type                           | Description                      |
+| :----------- | :----------------------------- | :------------------------------- |
+| `func`       | (`arg0`: `number`) => `number` | Function to integrate            |
+| `lowerLimit` | `number`                       | Lower limit to integrate within. |
+| `upperLimit` | `number`                       | Upper limit to integrate within. |
+
+#### Returns
+
+`number`
+
+integration of given function within given limits.
+
+#### Defined in
+
+[integration/simpsonThreeEighth.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/integration/simpsonThreeEighth.ts#L19)
+
+---
+
+### trapezoidalRule
+
+▸ **trapezoidalRule**(`func`, `lowerLimit`, `upperLimit`): `number`
+
+**`Example`**
+
+```ts
+trapezoidalRule(Math.log, 4, 5.2)
+
+trapezoidalRule(func1, 0, 1)
+
+const func1 = (arg0: number): number => {
+  return 1 / (1 + arg0 * arg0)
+}
+```
+
+#### Parameters
+
+| Name         | Type                           | Description                      |
+| :----------- | :----------------------------- | :------------------------------- |
+| `func`       | (`arg0`: `number`) => `number` | Function to integrate            |
+| `lowerLimit` | `number`                       | Lower limit to integrate within. |
+| `upperLimit` | `number`                       | Upper limit to integrate within. |
+
+#### Returns
+
+`number`
+
+integration of given function within given limits.
+
+#### Defined in
+
+[integration/trapezoidal.ts:19](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/integration/trapezoidal.ts#L19)
 
 ---
