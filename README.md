@@ -20,10 +20,10 @@ If you like this library don't forget to start the repository!
 
 - [differentiation](/docs/modules/differentiation.md)
 
-  - [backwardDiff](differentiation.md#backwarddiff)
-  - [centralDiff](differentiation.md#centraldiff)
-  - [differentiate](differentiation.md#differentiate)
-  - [forwardDiff](differentiation.md#forwarddiff)
+  - [backwardDiff](/README.md#backwarddiff)
+  - [centralDiff](/README.md#centraldiff)
+  - [differentiate](/README.md#differentiate)
+  - [forwardDiff](/README.md#forwarddiff)
 
 - [integration](/docs/modules/integration.md)
 
