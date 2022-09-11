@@ -12,4 +12,4 @@ If you like this library don't forget to start the repository!
 
 ## Documentation
 
-see documentation [here](docs/modules.md)
+[README](docs/modules.md)
