@@ -29,11 +29,7 @@ If you like this library don't forget to start the repository!
 
 [calculus-algorithms](../README.md) / [Modules](../modules.md) / differentiation
 
-## Module: differentiation
-
-## Table of contents
-
-### Functions
+# Module: differentiation
 
 ## Functions
 
@@ -186,3 +182,5 @@ differentiation of given function at given value.
 #### Defined in
 
 [differentiation/forwardDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/differentiation/forwardDividedDifference.ts#L22)
+
+---
