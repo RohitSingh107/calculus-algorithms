@@ -49,7 +49,7 @@ differentiation of given function at given value.
 
 #### Defined in
 
-[differentiation/backwardDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/e9a9643/src/differentiation/backwardDividedDifference.ts#L22)
+[differentiation/backwardDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/differentiation/backwardDividedDifference.ts#L22)
 
 ___
 
@@ -89,7 +89,7 @@ differentiation of given function at given value.
 
 #### Defined in
 
-[differentiation/centralDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/e9a9643/src/differentiation/centralDividedDifference.ts#L22)
+[differentiation/centralDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/differentiation/centralDividedDifference.ts#L22)
 
 ___
 
@@ -121,7 +121,7 @@ differentiation of given expression.
 
 #### Defined in
 
-[differentiation/differentiate.ts:48](https://github.com/RohitSingh107/calculus-algorithms/blob/e9a9643/src/differentiation/differentiate.ts#L48)
+[differentiation/differentiate.ts:48](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/differentiation/differentiate.ts#L48)
 
 ___
 
@@ -161,4 +161,4 @@ differentiation of given function at given value.
 
 #### Defined in
 
-[differentiation/forwardDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/e9a9643/src/differentiation/forwardDividedDifference.ts#L22)
+[differentiation/forwardDividedDifference.ts:22](https://github.com/RohitSingh107/calculus-algorithms/blob/40bb5e3/src/differentiation/forwardDividedDifference.ts#L22)
