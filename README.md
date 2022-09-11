@@ -10,6 +10,13 @@ If you want, you can contribute too!
 
 If you like this library don't forget to start the repository!
 
-## Documentation
+[calculus-algorithms](README.md) / Modules
 
-[README](docs/modules.md)
+# calculus-algorithms
+
+## Table of contents
+
+### Modules
+
+- [differentiation](modules/differentiation.md)
+- [integration](modules/integration.md)
