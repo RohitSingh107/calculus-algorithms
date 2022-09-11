@@ -19,6 +19,14 @@ If you like this library don't forget to start the repository!
 ### Modules
 
 - [differentiation](/docs/modules/differentiation.md)
+
+#### Functions
+
+- [backwardDiff](/README.md#backwarddiff)
+- [centralDiff](/README.md#centraldiff)
+- [differentiate](/README.md#differentiate)
+- [forwardDiff](/README.md#forwarddiff)
+
 - [integration](/docs/modules/integration.md)
 
 [calculus-algorithms](../README.md) / [Modules](../modules.md) / differentiation
@@ -26,13 +34,6 @@ If you like this library don't forget to start the repository!
 ## Module: differentiation
 
 ## Table of contents
-
-### Functions
-
-- [backwardDiff](README.md#backwarddiff)
-- [centralDiff](README.md#centraldiff)
-- [differentiate](README.md#differentiate)
-- [forwardDiff](README.md#forwarddiff)
 
 ## Functions
 
