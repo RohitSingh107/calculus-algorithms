@@ -23,16 +23,16 @@ If you like this library don't forget to start the repository!
 
 [calculus-algorithms](../README.md) / [Modules](../modules.md) / differentiation
 
-# Module: differentiation
+## Module: differentiation
 
 ## Table of contents
 
 ### Functions
 
-- [backwardDiff](differentiation.md#backwarddiff)
-- [centralDiff](differentiation.md#centraldiff)
-- [differentiate](differentiation.md#differentiate)
-- [forwardDiff](differentiation.md#forwarddiff)
+- [backwardDiff](README.md#backwarddiff)
+- [centralDiff](README.md#centraldiff)
+- [differentiate](README.md#differentiate)
+- [forwardDiff](README.md#forwarddiff)
 
 ## Functions
 
