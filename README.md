@@ -18,5 +18,5 @@ If you like this library don't forget to start the repository!
 
 ### Modules
 
-- [differentiation](modules/differentiation.md)
-- [integration](modules/integration.md)
+- [differentiation](docs/modules/differentiation.md)
+- [integration](docs/modules/integration.md)
