@@ -1,5 +1,5 @@
 {
-  "name": "@calculus-algorithms",
+  "name": "calculus-algorithms",
   "version": "0.0.1",
   "description": "A subset of Calculus algorithms",
   "main": "lib/es5/index.js",
